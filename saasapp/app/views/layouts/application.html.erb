@@ -8,7 +8,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+<body>
 <nav class="navbar navbar-default navbar-static-top" role="navigation">
   <div class='container'>
     <div class="navbar-header">
@@ -28,8 +28,6 @@
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
-    <div class="container">
-      <%= yield %>
-    </div>
-  </body>
+  <%= yield %>
+</body>
 </html>
